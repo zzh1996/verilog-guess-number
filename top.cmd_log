@@ -1,0 +1,585 @@
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "S:/verilog/game/top.xst" -ofn "S:/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+xst -intstyle ise -ifn "C:/Users/zzh1996/Desktop/verilog/game/top.xst" -ofn "C:/Users/zzh1996/Desktop/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/zzh1996/Desktop/verilog/game/top.xst" -ofn "C:/Users/zzh1996/Desktop/verilog/game/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

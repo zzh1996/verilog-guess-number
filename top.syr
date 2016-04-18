@@ -1,0 +1,1969 @@
+Release 12.3 - xst M.70d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "music.v" in library work
+Module <wave> compiled
+Compiling verilog file "top.v" in library work
+Module <music> compiled
+Module <button> compiled
+Module <switch> compiled
+Module <clock> compiled
+Module <display> compiled
+Module <edit> compiled
+Module <showedit> compiled
+Module <mem> compiled
+Module <nosame> compiled
+Module <judge> compiled
+Module <showjudge> compiled
+Module <showrec> compiled
+Module <hello> compiled
+Module <cong> compiled
+Module <lose> compiled
+Module <gameover> compiled
+Module <rndgen> compiled
+Module <submit> compiled
+Module <twinkle> compiled
+Module <twinkle8> compiled
+Module <sound> compiled
+Module <top> compiled
+No errors in compilation
+Analysis of file <"top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <top> in library <work>.
+
+Analyzing hierarchy for module <button> in library <work>.
+
+Analyzing hierarchy for module <switch> in library <work>.
+
+Analyzing hierarchy for module <rndgen> in library <work>.
+
+Analyzing hierarchy for module <mem> in library <work>.
+
+Analyzing hierarchy for module <display> in library <work>.
+
+Analyzing hierarchy for module <hello> in library <work>.
+
+Analyzing hierarchy for module <sound> in library <work>.
+
+Analyzing hierarchy for module <edit> in library <work>.
+
+Analyzing hierarchy for module <showedit> in library <work>.
+
+Analyzing hierarchy for module <showrec> in library <work>.
+
+Analyzing hierarchy for module <nosame> in library <work>.
+
+Analyzing hierarchy for module <judge> in library <work>.
+
+Analyzing hierarchy for module <submit> in library <work>.
+
+Analyzing hierarchy for module <gameover> in library <work>.
+
+Analyzing hierarchy for module <twinkle8> in library <work>.
+
+Analyzing hierarchy for module <clock> in library <work>.
+
+Analyzing hierarchy for module <music> in library <work>.
+
+Analyzing hierarchy for module <wave> in library <work>.
+
+Analyzing hierarchy for module <showjudge> in library <work>.
+
+Analyzing hierarchy for module <nosame> in library <work>.
+
+Analyzing hierarchy for module <cong> in library <work>.
+
+Analyzing hierarchy for module <lose> in library <work>.
+
+Analyzing hierarchy for module <twinkle> in library <work>.
+
+Analyzing hierarchy for module <judge> in library <work>.
+
+Analyzing hierarchy for module <clock> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top>.
+Module <top> is correct for synthesis.
+ 
+Analyzing module <button> in library <work>.
+Module <button> is correct for synthesis.
+ 
+Analyzing module <switch> in library <work>.
+Module <switch> is correct for synthesis.
+ 
+Analyzing module <rndgen> in library <work>.
+Module <rndgen> is correct for synthesis.
+ 
+Analyzing module <mem> in library <work>.
+Module <mem> is correct for synthesis.
+ 
+Analyzing module <display> in library <work>.
+Module <display> is correct for synthesis.
+ 
+Analyzing module <clock> in library <work>.
+Module <clock> is correct for synthesis.
+ 
+Analyzing module <hello> in library <work>.
+Module <hello> is correct for synthesis.
+ 
+Analyzing module <sound> in library <work>.
+Module <sound> is correct for synthesis.
+ 
+Analyzing module <music> in library <work>.
+Module <music> is correct for synthesis.
+ 
+Analyzing module <wave> in library <work>.
+Module <wave> is correct for synthesis.
+ 
+Analyzing module <edit> in library <work>.
+Module <edit> is correct for synthesis.
+ 
+Analyzing module <showedit> in library <work>.
+Module <showedit> is correct for synthesis.
+ 
+Analyzing module <showrec> in library <work>.
+Module <showrec> is correct for synthesis.
+ 
+Analyzing module <showjudge> in library <work>.
+Module <showjudge> is correct for synthesis.
+ 
+Analyzing module <nosame> in library <work>.
+Module <nosame> is correct for synthesis.
+ 
+Analyzing module <judge> in library <work>.
+Module <judge> is correct for synthesis.
+ 
+Analyzing module <submit> in library <work>.
+Module <submit> is correct for synthesis.
+ 
+Analyzing module <gameover> in library <work>.
+Module <gameover> is correct for synthesis.
+ 
+Analyzing module <cong> in library <work>.
+Module <cong> is correct for synthesis.
+ 
+Analyzing module <lose> in library <work>.
+Module <lose> is correct for synthesis.
+ 
+Analyzing module <twinkle8> in library <work>.
+Module <twinkle8> is correct for synthesis.
+ 
+Analyzing module <twinkle> in library <work>.
+Module <twinkle> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <button>.
+    Related source file is "top.v".
+    Found 1-bit register for signal <op>.
+    Found 32-bit up counter for signal <cnt>.
+    Found 1-bit xor2 for signal <cnt$xor0000> created at line 33.
+    Found 1-bit register for signal <out>.
+    Found 32-bit comparator greatequal for signal <out$cmp_ge0000> created at line 37.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <button> synthesized.
+
+
+Synthesizing Unit <switch>.
+    Related source file is "top.v".
+    Found 1-bit register for signal <out>.
+    Found 32-bit up counter for signal <cnt>.
+    Found 1-bit xor2 for signal <cnt$xor0000> created at line 61.
+    Found 32-bit comparator greatequal for signal <out$cmp_ge0000> created at line 65.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <switch> synthesized.
+
+
+Synthesizing Unit <mem>.
+    Related source file is "top.v".
+    Found 16-bit 8-to-1 multiplexer for signal <odata>.
+    Found 16-bit register for signal <data0>.
+    Found 16-bit register for signal <data1>.
+    Found 16-bit register for signal <data2>.
+    Found 16-bit register for signal <data3>.
+    Found 16-bit register for signal <data4>.
+    Found 16-bit register for signal <data5>.
+    Found 16-bit register for signal <data6>.
+    Found 16-bit register for signal <data7>.
+    Summary:
+	inferred 128 D-type flip-flop(s).
+	inferred  16 Multiplexer(s).
+Unit <mem> synthesized.
+
+
+Synthesizing Unit <edit>.
+    Related source file is "top.v".
+    Found 16-bit register for signal <num>.
+    Found 2-bit updown counter for signal <curr>.
+    Found 4-bit adder for signal <$add0000> created at line 188.
+    Found 4-bit adder for signal <$add0001> created at line 189.
+    Found 4-bit adder for signal <$add0002> created at line 190.
+    Found 4-bit adder for signal <$add0003> created at line 191.
+    Found 4-bit subtractor for signal <$sub0000> created at line 195.
+    Found 4-bit subtractor for signal <$sub0001> created at line 196.
+    Found 4-bit subtractor for signal <$sub0002> created at line 197.
+    Found 4-bit subtractor for signal <$sub0003> created at line 198.
+    Found 4-bit comparator greater for signal <num_11$cmp_gt0000> created at line 197.
+    Found 4-bit comparator less for signal <num_11$cmp_lt0000> created at line 190.
+    Found 4-bit comparator greater for signal <num_15$cmp_gt0000> created at line 198.
+    Found 4-bit comparator less for signal <num_15$cmp_lt0000> created at line 191.
+    Found 4-bit comparator greater for signal <num_3$cmp_gt0000> created at line 195.
+    Found 4-bit comparator less for signal <num_3$cmp_lt0000> created at line 188.
+    Found 4-bit comparator greater for signal <num_7$cmp_gt0000> created at line 196.
+    Found 4-bit comparator less for signal <num_7$cmp_lt0000> created at line 189.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   8 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+Unit <edit> synthesized.
+
+
+Synthesizing Unit <nosame>.
+    Related source file is "top.v".
+    Found 4-bit comparator not equal for signal <ok$cmp_ne0000> created at line 294.
+    Found 4-bit comparator not equal for signal <ok$cmp_ne0001> created at line 294.
+    Found 4-bit comparator not equal for signal <ok$cmp_ne0002> created at line 294.
+    Found 4-bit comparator not equal for signal <ok$cmp_ne0003> created at line 294.
+    Found 4-bit comparator not equal for signal <ok$cmp_ne0004> created at line 294.
+    Found 4-bit comparator not equal for signal <ok$cmp_ne0005> created at line 294.
+    Summary:
+	inferred   6 Comparator(s).
+Unit <nosame> synthesized.
+
+
+Synthesizing Unit <judge>.
+    Related source file is "top.v".
+    Found 3-bit adder for signal <b>.
+    Found 2-bit adder for signal <a$addsub0001> created at line 322.
+    Found 2-bit adder carry out for signal <a$addsub0002>.
+    Found 1-bit adder carry out for signal <a$addsub0003> created at line 322.
+    Found 4-bit comparator equal for signal <a$cmp_eq0000> created at line 322.
+    Found 4-bit comparator equal for signal <a$cmp_eq0001> created at line 322.
+    Found 4-bit comparator equal for signal <a$cmp_eq0002> created at line 322.
+    Found 4-bit comparator equal for signal <a$cmp_eq0003> created at line 322.
+    Found 2-bit adder for signal <b$addsub0001> created at line 323.
+    Found 3-bit adder for signal <b$addsub0003> created at line 323.
+    Found 3-bit adder for signal <b$addsub0004> created at line 323.
+    Found 3-bit adder for signal <b$addsub0005> created at line 323.
+    Found 3-bit adder for signal <b$addsub0006> created at line 323.
+    Found 3-bit adder for signal <b$addsub0007> created at line 323.
+    Found 3-bit adder for signal <b$addsub0008> created at line 323.
+    Found 3-bit adder for signal <b$addsub0009> created at line 323.
+    Found 1-bit adder carry out for signal <b$addsub0010> created at line 323.
+    Found 2-bit adder carry out for signal <b$addsub0011> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0000> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0001> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0002> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0003> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0004> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0005> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0006> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0007> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0008> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0009> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0010> created at line 323.
+    Found 4-bit comparator equal for signal <b$cmp_eq0011> created at line 323.
+    Summary:
+	inferred  14 Adder/Subtractor(s).
+	inferred  16 Comparator(s).
+Unit <judge> synthesized.
+
+
+Synthesizing Unit <clock>.
+    Related source file is "top.v".
+    Found 1-bit register for signal <c>.
+    Found 32-bit up counter for signal <count1>.
+    Found 32-bit comparator greatequal for signal <count1$cmp_ge0000> created at line 83.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <clock> synthesized.
+
+
+Synthesizing Unit <wave>.
+    Related source file is "music.v".
+    Found 16x32-bit ROM for signal <max>.
+    Found 1-bit register for signal <wav>.
+    Found 32-bit up counter for signal <cnt>.
+    Found 32-bit comparator greatequal for signal <cnt$cmp_ge0000> created at line 54.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <wave> synthesized.
+
+
+Synthesizing Unit <rndgen>.
+    Related source file is "top.v".
+    Found 16-bit register for signal <random>.
+    Found 4-bit adder for signal <$add0000> created at line 507.
+    Found 4-bit adder for signal <$add0001> created at line 512.
+    Found 4-bit adder for signal <$add0002> created at line 517.
+    Found 4-bit adder for signal <$add0003> created at line 522.
+    Found 16-bit register for signal <rnd>.
+    Found 4-bit comparator less for signal <rnd_11$cmp_lt0000> created at line 516.
+    Found 4-bit comparator less for signal <rnd_15$cmp_lt0000> created at line 521.
+    Found 4-bit comparator less for signal <rnd_3$cmp_lt0000> created at line 506.
+    Found 4-bit comparator less for signal <rnd_7$cmp_lt0000> created at line 511.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <rndgen> synthesized.
+
+
+Synthesizing Unit <display>.
+    Related source file is "top.v".
+    Found 32x7-bit ROM for signal <seg>.
+    Found 4-bit register for signal <an>.
+    Found 2-bit up counter for signal <c>.
+    Found 5-bit 4-to-1 multiplexer for signal <n>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <display> synthesized.
+
+
+Synthesizing Unit <hello>.
+    Related source file is "top.v".
+    Found 45-bit register for signal <txt>.
+    Summary:
+	inferred  45 D-type flip-flop(s).
+Unit <hello> synthesized.
+
+
+Synthesizing Unit <showedit>.
+    Related source file is "top.v".
+    Found 1-bit register for signal <s>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <showedit> synthesized.
+
+
+Synthesizing Unit <music>.
+    Related source file is "music.v".
+    Found 32-bit up counter for signal <cnt>.
+    Found 32-bit comparator greatequal for signal <cnt$cmp_ge0000> created at line 87.
+    Found 208-bit register for signal <delay>.
+    Found 4-bit down counter for signal <left>.
+    Found 32-bit register for signal <max>.
+    Found 208-bit register for signal <music>.
+    Found 4-bit register for signal <node>.
+    Found 1-bit register for signal <t>.
+    Found 1-bit register for signal <wt>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  38 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <music> synthesized.
+
+
+Synthesizing Unit <showjudge>.
+    Related source file is "top.v".
+Unit <showjudge> synthesized.
+
+
+Synthesizing Unit <cong>.
+    Related source file is "top.v".
+    Found 95-bit register for signal <txt>.
+Unit <cong> synthesized.
+
+
+Synthesizing Unit <lose>.
+    Related source file is "top.v".
+    Found 1-bit register for signal <s>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <lose> synthesized.
+
+
+Synthesizing Unit <twinkle>.
+    Related source file is "top.v".
+    Found 8-bit comparator greatequal for signal <o>.
+    Found 8-bit adder for signal <$add0000> created at line 553.
+    Found 8-bit adder for signal <br$addsub0000> created at line 556.
+    Found 8-bit comparator less for signal <br$cmp_lt0000> created at line 556.
+    Found 8-bit up counter for signal <br0>.
+    Found 7-bit up counter for signal <cnt>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <twinkle> synthesized.
+
+
+Synthesizing Unit <sound>.
+    Related source file is "top.v".
+    Found 32-bit down counter for signal <guesswrong_cnt>.
+    Found 32-bit comparator greater for signal <guesswrong_cnt$cmp_gt0000> created at line 630.
+    Found 1-bit register for signal <guesswrong_en>.
+    Found 4-bit comparator greater for signal <guesswrong_en$cmp_gt0000> created at line 634.
+    Found 4-bit down counter for signal <guesswrong_node>.
+    Found 4-bit comparator lessequal for signal <guesswrong_node$cmp_le0000> created at line 634.
+    Found 32-bit down counter for signal <press_cnt>.
+    Found 32-bit comparator greater for signal <press_cnt$cmp_gt0000> created at line 611.
+    Found 1-bit register for signal <press_en>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <sound> synthesized.
+
+
+Synthesizing Unit <showrec>.
+    Related source file is "top.v".
+    Found 5-bit subtractor for signal <$sub0000> created at line 397.
+    Found 3-bit up counter for signal <showrec>.
+    Found 3-bit comparator greatequal for signal <showrec$cmp_ge0000> created at line 393.
+    Found 5-bit comparator greatequal for signal <showrec$cmp_ge0001> created at line 397.
+    Found 3-bit comparator greater for signal <showrec$cmp_gt0000> created at line 404.
+    Found 3-bit subtractor for signal <showrec$mux0000>.
+    Found 3-bit adder carry out for signal <showrecplus1$addsub0000>.
+    Found 2-bit up counter for signal <state>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <showrec> synthesized.
+
+
+Synthesizing Unit <submit>.
+    Related source file is "top.v".
+Unit <submit> synthesized.
+
+
+Synthesizing Unit <gameover>.
+    Related source file is "top.v".
+Unit <gameover> synthesized.
+
+
+Synthesizing Unit <twinkle8>.
+    Related source file is "top.v".
+Unit <twinkle8> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "top.v".
+WARNING:Xst:646 - Signal <sw4> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sw3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sw2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <judge_b> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <gamestate>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | sw7                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16-bit register for signal <ans>.
+    Found 4-bit register for signal <curr_rec>.
+    Found 4-bit addsub for signal <curr_rec$share0000> created at line 720.
+    Found 1-bit register for signal <edit_rst>.
+    Found 1-bit register for signal <gameover_rst>.
+    Found 1-bit register for signal <guess_wrong>.
+    Found 8-bit shifter logical left for signal <led$shift0001> created at line 891.
+    Found 1-bit register for signal <mem_we>.
+    Found 1-bit register for signal <win>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 3
+ 16x32-bit ROM                                         : 2
+ 32x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 74
+ 1-bit adder carry out                                 : 6
+ 2-bit adder                                           : 6
+ 2-bit adder carry out                                 : 6
+ 3-bit adder                                           : 24
+ 3-bit adder carry out                                 : 1
+ 3-bit subtractor                                      : 1
+ 4-bit adder                                           : 8
+ 4-bit addsub                                          : 1
+ 4-bit subtractor                                      : 4
+ 5-bit subtractor                                      : 1
+ 8-bit adder                                           : 16
+# Counters                                             : 54
+ 2-bit up counter                                      : 2
+ 2-bit updown counter                                  : 1
+ 3-bit up counter                                      : 1
+ 32-bit down counter                                   : 2
+ 32-bit up counter                                     : 30
+ 4-bit down counter                                    : 2
+ 7-bit up counter                                      : 8
+ 8-bit up counter                                      : 8
+# Registers                                            : 94
+ 1-bit register                                        : 76
+ 16-bit register                                       : 10
+ 208-bit register                                      : 2
+ 32-bit register                                       : 1
+ 4-bit register                                        : 3
+ 45-bit register                                       : 1
+ 95-bit register                                       : 1
+# Comparators                                          : 131
+ 3-bit comparator greatequal                           : 1
+ 3-bit comparator greater                              : 1
+ 32-bit comparator greatequal                          : 30
+ 32-bit comparator greater                             : 2
+ 4-bit comparator equal                                : 48
+ 4-bit comparator greater                              : 5
+ 4-bit comparator less                                 : 8
+ 4-bit comparator lessequal                            : 1
+ 4-bit comparator not equal                            : 18
+ 5-bit comparator greatequal                           : 1
+ 8-bit comparator greatequal                           : 8
+ 8-bit comparator less                                 : 8
+# Multiplexers                                         : 2
+ 16-bit 8-to-1 multiplexer                             : 1
+ 5-bit 4-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 8-bit shifter logical left                            : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <gamestate/FSM> on signal <gamestate[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+WARNING:Xst:1290 - Hierarchical block <s2> is unconnected in block <top>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <s3> is unconnected in block <top>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <s4> is unconnected in block <top>.
+   It will be removed from the design.
+INFO:Xst:2261 - The FF/Latch <max_0> in Unit <music1> is equivalent to the following 9 FFs/Latches, which will be removed : <max_2> <max_3> <max_5> <max_10> <max_11> <max_13> <max_18> <max_19> <max_22> 
+INFO:Xst:2261 - The FF/Latch <max_12> in Unit <music1> is equivalent to the following FF/Latch, which will be removed : <max_16> 
+INFO:Xst:2261 - The FF/Latch <max_1> in Unit <music1> is equivalent to the following 14 FFs/Latches, which will be removed : <max_6> <max_8> <max_9> <max_20> <max_21> <max_23> <max_24> <max_25> <max_26> <max_27> <max_28> <max_29> <max_30> <max_31> 
+INFO:Xst:2261 - The FF/Latch <max_4> in Unit <music1> is equivalent to the following 4 FFs/Latches, which will be removed : <max_7> <max_14> <max_15> <max_17> 
+WARNING:Xst:1710 - FF/Latch <max_1> (without init value) has a constant value of 0 in block <music1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_4> (without init value) has a constant value of 1 in block <music1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <max<31:23>> (without init value) have a constant value of 0 in block <music>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 3
+ 16x32-bit ROM                                         : 2
+ 32x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 74
+ 1-bit adder carry out                                 : 6
+ 2-bit adder                                           : 6
+ 2-bit adder carry out                                 : 6
+ 3-bit adder                                           : 24
+ 3-bit adder carry out                                 : 1
+ 3-bit subtractor                                      : 1
+ 4-bit adder                                           : 8
+ 4-bit addsub                                          : 1
+ 4-bit subtractor                                      : 4
+ 5-bit subtractor                                      : 1
+ 8-bit adder                                           : 16
+# Counters                                             : 54
+ 2-bit up counter                                      : 2
+ 2-bit updown counter                                  : 1
+ 3-bit up counter                                      : 1
+ 32-bit down counter                                   : 2
+ 32-bit up counter                                     : 30
+ 4-bit down counter                                    : 2
+ 7-bit up counter                                      : 8
+ 8-bit up counter                                      : 8
+# Registers                                            : 827
+ Flip-Flops                                            : 827
+# Comparators                                          : 131
+ 3-bit comparator greatequal                           : 1
+ 3-bit comparator greater                              : 1
+ 32-bit comparator greatequal                          : 30
+ 32-bit comparator greater                             : 2
+ 4-bit comparator equal                                : 48
+ 4-bit comparator greater                              : 5
+ 4-bit comparator less                                 : 8
+ 4-bit comparator lessequal                            : 1
+ 4-bit comparator not equal                            : 18
+ 5-bit comparator greatequal                           : 1
+ 8-bit comparator greatequal                           : 8
+ 8-bit comparator less                                 : 8
+# Multiplexers                                         : 2
+ 16-bit 8-to-1 multiplexer                             : 1
+ 5-bit 4-to-1 multiplexer                              : 1
+# Logic shifters                                       : 1
+ 8-bit shifter logical left                            : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <max_1> (without init value) has a constant value of 0 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_4> (without init value) has a constant value of 1 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_6> (without init value) has a constant value of 0 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_7> (without init value) has a constant value of 1 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_8> (without init value) has a constant value of 0 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_9> (without init value) has a constant value of 0 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_14> (without init value) has a constant value of 1 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_15> (without init value) has a constant value of 1 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_17> (without init value) has a constant value of 1 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_20> (without init value) has a constant value of 0 in block <music>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <max_21> (without init value) has a constant value of 0 in block <music>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <max_0> in Unit <music> is equivalent to the following 9 FFs/Latches, which will be removed : <max_2> <max_3> <max_5> <max_10> <max_11> <max_13> <max_18> <max_19> <max_22> 
+INFO:Xst:2261 - The FF/Latch <max_12> in Unit <music> is equivalent to the following FF/Latch, which will be removed : <max_16> 
+WARNING:Xst:2677 - Node <s4/out> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <s3/out> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <s2/out> of sequential type is unconnected in block <top>.
+INFO:Xst:2146 - In block <top>, Counter <twinkle81/t0/cnt> <twinkle81/t1/cnt> <twinkle81/t2/cnt> <twinkle81/t3/cnt> <twinkle81/t4/cnt> <twinkle81/t5/cnt> <twinkle81/t6/cnt> <twinkle81/t7/cnt> are equivalent, XST will keep only <twinkle81/t0/cnt>.
+
+Optimizing unit <top> ...
+
+Optimizing unit <mem> ...
+
+Optimizing unit <edit> ...
+
+Optimizing unit <rndgen> ...
+
+Optimizing unit <display> ...
+
+Optimizing unit <showedit> ...
+
+Optimizing unit <music> ...
+
+Optimizing unit <lose> ...
+
+Optimizing unit <sound> ...
+
+Optimizing unit <showrec> ...
+
+Optimizing unit <gameover> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 29.
+FlipFlop edit1/num_0 has been replicated 1 time(s)
+FlipFlop edit1/num_1 has been replicated 1 time(s)
+FlipFlop edit1/num_10 has been replicated 1 time(s)
+FlipFlop edit1/num_11 has been replicated 1 time(s)
+FlipFlop edit1/num_2 has been replicated 1 time(s)
+FlipFlop edit1/num_3 has been replicated 1 time(s)
+FlipFlop edit1/num_4 has been replicated 1 time(s)
+FlipFlop edit1/num_5 has been replicated 1 time(s)
+FlipFlop edit1/num_6 has been replicated 1 time(s)
+FlipFlop edit1/num_7 has been replicated 1 time(s)
+FlipFlop edit1/num_8 has been replicated 1 time(s)
+FlipFlop edit1/num_9 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <top> :
+	Found 6-bit shift register for signal <hello1/txt_29>.
+	Found 6-bit shift register for signal <hello1/txt_28>.
+	Found 6-bit shift register for signal <hello1/txt_27>.
+	Found 6-bit shift register for signal <hello1/txt_26>.
+	Found 6-bit shift register for signal <hello1/txt_25>.
+	Found 29-bit shift register for signal <sound1/music1/delay_206>.
+	Found 52-bit shift register for signal <sound1/music1/delay_207>.
+	Found 4-bit shift register for signal <sound1/music1/delay_197>.
+	Found 4-bit shift register for signal <sound1/music1/delay_196>.
+	Found 4-bit shift register for signal <sound1/music1/delay_180>.
+	Found 4-bit shift register for signal <sound1/music1/delay_181>.
+	Found 4-bit shift register for signal <sound1/music1/delay_164>.
+	Found 4-bit shift register for signal <sound1/music1/delay_165>.
+	Found 4-bit shift register for signal <sound1/music1/delay_148>.
+	Found 4-bit shift register for signal <sound1/music1/delay_149>.
+	Found 4-bit shift register for signal <sound1/music1/delay_133>.
+	Found 4-bit shift register for signal <sound1/music1/delay_132>.
+	Found 20-bit shift register for signal <sound1/music1/delay_100>.
+	Found 4-bit shift register for signal <sound1/music1/delay_86>.
+	Found 4-bit shift register for signal <sound1/music1/delay_85>.
+	Found 4-bit shift register for signal <sound1/music1/delay_66>.
+	Found 4-bit shift register for signal <sound1/music1/delay_65>.
+	Found 11-bit shift register for signal <sound1/music1/delay_46>.
+	Found 6-bit shift register for signal <sound1/music1/delay_45>.
+	Found 4-bit shift register for signal <sound1/music1/delay_13>.
+	Found 4-bit shift register for signal <sound1/music1/delay_12>.
+	Found 5-bit shift register for signal <sound1/music1/music_205>.
+	Found 4-bit shift register for signal <sound1/music1/music_203>.
+	Found 4-bit shift register for signal <sound1/music1/music_202>.
+	Found 4-bit shift register for signal <sound1/music1/music_187>.
+	Found 4-bit shift register for signal <sound1/music1/music_186>.
+	Found 4-bit shift register for signal <sound1/music1/music_185>.
+	Found 5-bit shift register for signal <sound1/music1/music_171>.
+	Found 5-bit shift register for signal <sound1/music1/music_170>.
+	Found 6-bit shift register for signal <sound1/music1/music_138>.
+	Found 4-bit shift register for signal <sound1/music1/music_137>.
+	Found 6-bit shift register for signal <sound1/music1/music_139>.
+	Found 4-bit shift register for signal <sound1/music1/music_115>.
+	Found 4-bit shift register for signal <sound1/music1/music_114>.
+	Found 5-bit shift register for signal <sound1/music1/music_89>.
+	Found 5-bit shift register for signal <sound1/music1/music_47>.
+	Found 4-bit shift register for signal <sound1/music1/music_46>.
+	Found 6-bit shift register for signal <sound1/music1/music_37>.
+	Found 5-bit shift register for signal <sound1/music1/music_30>.
+	Found 4-bit shift register for signal <sound1/music1/music_27>.
+	Found 4-bit shift register for signal <gameover1/cong1/txt_24>.
+Unit <top> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1529
+ Flip-Flops                                            : 1529
+# Shift Registers                                      : 46
+ 11-bit shift register                                 : 1
+ 20-bit shift register                                 : 1
+ 29-bit shift register                                 : 1
+ 4-bit shift register                                  : 27
+ 5-bit shift register                                  : 6
+ 52-bit shift register                                 : 1
+ 6-bit shift register                                  : 9
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 34
+
+Cell Usage :
+# BELS                             : 4714
+#      GND                         : 1
+#      INV                         : 172
+#      LUT1                        : 942
+#      LUT2                        : 281
+#      LUT2_D                      : 1
+#      LUT3                        : 216
+#      LUT3_D                      : 4
+#      LUT3_L                      : 3
+#      LUT4                        : 569
+#      LUT4_D                      : 9
+#      LUT4_L                      : 14
+#      MUXCY                       : 1413
+#      MUXF5                       : 80
+#      MUXF6                       : 16
+#      VCC                         : 1
+#      XORCY                       : 992
+# FlipFlops/Latches                : 1675
+#      FD                          : 96
+#      FDC                         : 78
+#      FDCE                        : 178
+#      FDE                         : 245
+#      FDP                         : 63
+#      FDPE                        : 99
+#      FDR                         : 839
+#      FDRE                        : 55
+#      FDSE                        : 22
+# Shift Registers                  : 51
+#      SRL16                       : 6
+#      SRL16E                      : 40
+#      SRLC16E                     : 5
+# Clock Buffers                    : 5
+#      BUFG                        : 4
+#      BUFGP                       : 1
+# IO Buffers                       : 30
+#      IBUF                        : 9
+#      OBUF                        : 21
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     1291  out of   4656    27%  
+ Number of Slice Flip Flops:           1675  out of   9312    17%  
+ Number of 4 input LUTs:               2262  out of   9312    24%  
+    Number used as logic:              2211
+    Number used as Shift registers:      51
+ Number of IOs:                          34
+ Number of bonded IOBs:                  31  out of    232    13%  
+ Number of GCLKs:                         5  out of     24    20%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)   | Load  |
+-----------------------------------+-------------------------+-------+
+clk                                | BUFGP                   | 1064  |
+hello1/cl/c1                       | BUFG                    | 25    |
+twinkle81/t0/c1/c                  | NONE(twinkle81/t0/br0_0)| 8     |
+twinkle81/t1/c1/c                  | NONE(twinkle81/t1/br0_0)| 8     |
+twinkle81/t2/c1/c                  | NONE(twinkle81/t2/br0_0)| 8     |
+twinkle81/t3/c1/c                  | NONE(twinkle81/t3/br0_0)| 8     |
+twinkle81/t4/c1/c                  | NONE(twinkle81/t4/br0_0)| 8     |
+twinkle81/t5/c1/c                  | NONE(twinkle81/t5/br0_0)| 8     |
+twinkle81/t6/c1/c                  | NONE(twinkle81/t6/br0_0)| 8     |
+twinkle81/t7/c1/c                  | NONE(twinkle81/t7/br0_0)| 8     |
+mem_we1                            | BUFG                    | 128   |
+display1/cl/c                      | NONE(display1/c_1)      | 6     |
+sound1/music1/t1                   | BUFG                    | 338   |
+showrec1/cl/c                      | NONE(showrec1/state_1)  | 2     |
+gameover1/lose1/cl/c               | NONE(gameover1/lose1/s) | 1     |
+gameover1/cong1/cl/c1              | BUFG                    | 97    |
+showedit1/cl/c                     | NONE(showedit1/s)       | 1     |
+-----------------------------------+-------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------+----------------------------+-------+
+Control Signal                                                     | Buffer(FF name)            | Load  |
+-------------------------------------------------------------------+----------------------------+-------+
+sound1/music1/delay_Acst_inv(sound1/music1/delay_Acst_inv1_INV_0:O)| NONE(sound1/music1/cnt_0)  | 283   |
+gameover_rst(gameover_rst:Q)                                       | NONE(gameover1/cong1/txt_0)| 96    |
+edit_rst(edit_rst:Q)                                               | NONE(edit1/curr_0)         | 30    |
+s7/out(s7/out:Q)                                                   | NONE(curr_rec_0)           | 7     |
+showrec1/operate(showrec1/operate1:O)                              | NONE(showrec1/state_0)     | 2     |
+-------------------------------------------------------------------+----------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.331ns (Maximum Frequency: 107.171MHz)
+   Minimum input arrival time before clock: 4.661ns
+   Maximum output required time after clock: 28.826ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 9.331ns (frequency: 107.171MHz)
+  Total number of paths / destination ports: 78508 / 2144
+-------------------------------------------------------------------------
+Delay:               9.331ns (Levels of Logic = 57)
+  Source:            sound1/music1/cnt_0 (FF)
+  Destination:       sound1/music1/cnt_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: sound1/music1/cnt_0 to sound1/music1/cnt_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.526  sound1/music1/cnt_0 (sound1/music1/cnt_0)
+     LUT2:I1->O            1   0.704   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_lut<0> (sound1/music1/Mcompar_cnt_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<0> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<1> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<2> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<3> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<4> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<5> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<6> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<7> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<8> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<9> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<10> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<11> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<12> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<13> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<14> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<15> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<16> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<17> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<18> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<19> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<20> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<21> (sound1/music1/Mcompar_cnt_cmp_ge0000_cy<21>)
+     MUXCY:CI->O          34   0.459   1.298  sound1/music1/Mcompar_cnt_cmp_ge0000_cy<22> (sound1/music1/cnt_cmp_ge0000)
+     LUT3:I2->O            1   0.704   0.000  sound1/music1/Mcount_cnt_lut<0> (sound1/music1/Mcount_cnt_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  sound1/music1/Mcount_cnt_cy<0> (sound1/music1/Mcount_cnt_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<1> (sound1/music1/Mcount_cnt_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<2> (sound1/music1/Mcount_cnt_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<3> (sound1/music1/Mcount_cnt_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<4> (sound1/music1/Mcount_cnt_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<5> (sound1/music1/Mcount_cnt_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<6> (sound1/music1/Mcount_cnt_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<7> (sound1/music1/Mcount_cnt_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<8> (sound1/music1/Mcount_cnt_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<9> (sound1/music1/Mcount_cnt_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<10> (sound1/music1/Mcount_cnt_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<11> (sound1/music1/Mcount_cnt_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<12> (sound1/music1/Mcount_cnt_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<13> (sound1/music1/Mcount_cnt_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<14> (sound1/music1/Mcount_cnt_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<15> (sound1/music1/Mcount_cnt_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<16> (sound1/music1/Mcount_cnt_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<17> (sound1/music1/Mcount_cnt_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<18> (sound1/music1/Mcount_cnt_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<19> (sound1/music1/Mcount_cnt_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<20> (sound1/music1/Mcount_cnt_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<21> (sound1/music1/Mcount_cnt_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<22> (sound1/music1/Mcount_cnt_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<23> (sound1/music1/Mcount_cnt_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<24> (sound1/music1/Mcount_cnt_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<25> (sound1/music1/Mcount_cnt_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<26> (sound1/music1/Mcount_cnt_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<27> (sound1/music1/Mcount_cnt_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<28> (sound1/music1/Mcount_cnt_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  sound1/music1/Mcount_cnt_cy<29> (sound1/music1/Mcount_cnt_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  sound1/music1/Mcount_cnt_cy<30> (sound1/music1/Mcount_cnt_cy<30>)
+     XORCY:CI->O           1   0.804   0.000  sound1/music1/Mcount_cnt_xor<31> (sound1/music1/Mcount_cnt31)
+     FDC:D                     0.308          sound1/music1/cnt_31
+    ----------------------------------------
+    Total                      9.331ns (7.507ns logic, 1.824ns route)
+                                       (80.5% logic, 19.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'hello1/cl/c1'
+  Clock period: 4.014ns (frequency: 249.128MHz)
+  Total number of paths / destination ports: 25 / 25
+-------------------------------------------------------------------------
+Delay:               4.014ns (Levels of Logic = 0)
+  Source:            hello1/Mshreg_txt_27 (FF)
+  Destination:       hello1/txt_27 (FF)
+  Source Clock:      hello1/cl/c1 rising
+  Destination Clock: hello1/cl/c1 rising
+
+  Data Path: hello1/Mshreg_txt_27 to hello1/txt_27
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.706   0.000  hello1/Mshreg_txt_27 (hello1/Mshreg_txt_27)
+     FD:D                      0.308          hello1/txt_27
+    ----------------------------------------
+    Total                      4.014ns (4.014ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t0/c1/c'
+  Clock period: 3.872ns (frequency: 258.264MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.872ns (Levels of Logic = 8)
+  Source:            twinkle81/t0/br0_1 (FF)
+  Destination:       twinkle81/t0/br0_7 (FF)
+  Source Clock:      twinkle81/t0/c1/c rising
+  Destination Clock: twinkle81/t0/c1/c rising
+
+  Data Path: twinkle81/t0/br0_1 to twinkle81/t0/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.706  twinkle81/t0/br0_1 (twinkle81/t0/br0_1)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t0/Mcount_br0_cy<1>_rt (twinkle81/t0/Mcount_br0_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t0/Mcount_br0_cy<1> (twinkle81/t0/Mcount_br0_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcount_br0_cy<2> (twinkle81/t0/Mcount_br0_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcount_br0_cy<3> (twinkle81/t0/Mcount_br0_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcount_br0_cy<4> (twinkle81/t0/Mcount_br0_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcount_br0_cy<5> (twinkle81/t0/Mcount_br0_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  twinkle81/t0/Mcount_br0_cy<6> (twinkle81/t0/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t0/Mcount_br0_xor<7> (Result<7>9)
+     FD:D                      0.308          twinkle81/t0/br0_7
+    ----------------------------------------
+    Total                      3.872ns (3.166ns logic, 0.706ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t1/c1/c'
+  Clock period: 3.987ns (frequency: 250.815MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.987ns (Levels of Logic = 4)
+  Source:            twinkle81/t1/br0_5 (FF)
+  Destination:       twinkle81/t1/br0_7 (FF)
+  Source Clock:      twinkle81/t1/c1/c rising
+  Destination Clock: twinkle81/t1/c1/c rising
+
+  Data Path: twinkle81/t1/br0_5 to twinkle81/t1/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t1/br0_5 (twinkle81/t1/br0_5)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t1/Mcount_br0_cy<5>_rt (twinkle81/t1/Mcount_br0_cy<5>_rt)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t1/Mcount_br0_cy<5> (twinkle81/t1/Mcount_br0_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  twinkle81/t1/Mcount_br0_cy<6> (twinkle81/t1/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t1/Mcount_br0_xor<7> (Result<7>11)
+     FD:D                      0.308          twinkle81/t1/br0_7
+    ----------------------------------------
+    Total                      3.987ns (2.930ns logic, 1.057ns route)
+                                       (73.5% logic, 26.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t2/c1/c'
+  Clock period: 4.007ns (frequency: 249.563MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               4.007ns (Levels of Logic = 3)
+  Source:            twinkle81/t2/br0_6 (FF)
+  Destination:       twinkle81/t2/br0_7 (FF)
+  Source Clock:      twinkle81/t2/c1/c rising
+  Destination Clock: twinkle81/t2/c1/c rising
+
+  Data Path: twinkle81/t2/br0_6 to twinkle81/t2/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.591   1.136  twinkle81/t2/br0_6 (twinkle81/t2/br0_6)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t2/Mcount_br0_cy<6>_rt (twinkle81/t2/Mcount_br0_cy<6>_rt)
+     MUXCY:S->O            0   0.464   0.000  twinkle81/t2/Mcount_br0_cy<6> (twinkle81/t2/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t2/Mcount_br0_xor<7> (Result<7>13)
+     FD:D                      0.308          twinkle81/t2/br0_7
+    ----------------------------------------
+    Total                      4.007ns (2.871ns logic, 1.136ns route)
+                                       (71.6% logic, 28.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t3/c1/c'
+  Clock period: 3.987ns (frequency: 250.815MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.987ns (Levels of Logic = 4)
+  Source:            twinkle81/t3/br0_5 (FF)
+  Destination:       twinkle81/t3/br0_7 (FF)
+  Source Clock:      twinkle81/t3/c1/c rising
+  Destination Clock: twinkle81/t3/c1/c rising
+
+  Data Path: twinkle81/t3/br0_5 to twinkle81/t3/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t3/br0_5 (twinkle81/t3/br0_5)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t3/Mcount_br0_cy<5>_rt (twinkle81/t3/Mcount_br0_cy<5>_rt)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t3/Mcount_br0_cy<5> (twinkle81/t3/Mcount_br0_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  twinkle81/t3/Mcount_br0_cy<6> (twinkle81/t3/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t3/Mcount_br0_xor<7> (Result<7>15)
+     FD:D                      0.308          twinkle81/t3/br0_7
+    ----------------------------------------
+    Total                      3.987ns (2.930ns logic, 1.057ns route)
+                                       (73.5% logic, 26.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t4/c1/c'
+  Clock period: 3.872ns (frequency: 258.264MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.872ns (Levels of Logic = 8)
+  Source:            twinkle81/t4/br0_1 (FF)
+  Destination:       twinkle81/t4/br0_7 (FF)
+  Source Clock:      twinkle81/t4/c1/c rising
+  Destination Clock: twinkle81/t4/c1/c rising
+
+  Data Path: twinkle81/t4/br0_1 to twinkle81/t4/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.706  twinkle81/t4/br0_1 (twinkle81/t4/br0_1)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t4/Mcount_br0_cy<1>_rt (twinkle81/t4/Mcount_br0_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t4/Mcount_br0_cy<1> (twinkle81/t4/Mcount_br0_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcount_br0_cy<2> (twinkle81/t4/Mcount_br0_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcount_br0_cy<3> (twinkle81/t4/Mcount_br0_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcount_br0_cy<4> (twinkle81/t4/Mcount_br0_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcount_br0_cy<5> (twinkle81/t4/Mcount_br0_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  twinkle81/t4/Mcount_br0_cy<6> (twinkle81/t4/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t4/Mcount_br0_xor<7> (Result<7>17)
+     FD:D                      0.308          twinkle81/t4/br0_7
+    ----------------------------------------
+    Total                      3.872ns (3.166ns logic, 0.706ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t5/c1/c'
+  Clock period: 3.987ns (frequency: 250.815MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.987ns (Levels of Logic = 4)
+  Source:            twinkle81/t5/br0_5 (FF)
+  Destination:       twinkle81/t5/br0_7 (FF)
+  Source Clock:      twinkle81/t5/c1/c rising
+  Destination Clock: twinkle81/t5/c1/c rising
+
+  Data Path: twinkle81/t5/br0_5 to twinkle81/t5/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t5/br0_5 (twinkle81/t5/br0_5)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t5/Mcount_br0_cy<5>_rt (twinkle81/t5/Mcount_br0_cy<5>_rt)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t5/Mcount_br0_cy<5> (twinkle81/t5/Mcount_br0_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  twinkle81/t5/Mcount_br0_cy<6> (twinkle81/t5/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t5/Mcount_br0_xor<7> (Result<7>19)
+     FD:D                      0.308          twinkle81/t5/br0_7
+    ----------------------------------------
+    Total                      3.987ns (2.930ns logic, 1.057ns route)
+                                       (73.5% logic, 26.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t6/c1/c'
+  Clock period: 4.007ns (frequency: 249.563MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               4.007ns (Levels of Logic = 3)
+  Source:            twinkle81/t6/br0_6 (FF)
+  Destination:       twinkle81/t6/br0_7 (FF)
+  Source Clock:      twinkle81/t6/c1/c rising
+  Destination Clock: twinkle81/t6/c1/c rising
+
+  Data Path: twinkle81/t6/br0_6 to twinkle81/t6/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.591   1.136  twinkle81/t6/br0_6 (twinkle81/t6/br0_6)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t6/Mcount_br0_cy<6>_rt (twinkle81/t6/Mcount_br0_cy<6>_rt)
+     MUXCY:S->O            0   0.464   0.000  twinkle81/t6/Mcount_br0_cy<6> (twinkle81/t6/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t6/Mcount_br0_xor<7> (Result<7>21)
+     FD:D                      0.308          twinkle81/t6/br0_7
+    ----------------------------------------
+    Total                      4.007ns (2.871ns logic, 1.136ns route)
+                                       (71.6% logic, 28.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'twinkle81/t7/c1/c'
+  Clock period: 3.987ns (frequency: 250.815MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.987ns (Levels of Logic = 4)
+  Source:            twinkle81/t7/br0_5 (FF)
+  Destination:       twinkle81/t7/br0_7 (FF)
+  Source Clock:      twinkle81/t7/c1/c rising
+  Destination Clock: twinkle81/t7/c1/c rising
+
+  Data Path: twinkle81/t7/br0_5 to twinkle81/t7/br0_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t7/br0_5 (twinkle81/t7/br0_5)
+     LUT1:I0->O            1   0.704   0.000  twinkle81/t7/Mcount_br0_cy<5>_rt (twinkle81/t7/Mcount_br0_cy<5>_rt)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t7/Mcount_br0_cy<5> (twinkle81/t7/Mcount_br0_cy<5>)
+     MUXCY:CI->O           0   0.059   0.000  twinkle81/t7/Mcount_br0_cy<6> (twinkle81/t7/Mcount_br0_cy<6>)
+     XORCY:CI->O           1   0.804   0.000  twinkle81/t7/Mcount_br0_xor<7> (Result<7>23)
+     FD:D                      0.308          twinkle81/t7/br0_7
+    ----------------------------------------
+    Total                      3.987ns (2.930ns logic, 1.057ns route)
+                                       (73.5% logic, 26.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'display1/cl/c'
+  Clock period: 2.643ns (frequency: 378.358MHz)
+  Total number of paths / destination ports: 7 / 6
+-------------------------------------------------------------------------
+Delay:               2.643ns (Levels of Logic = 1)
+  Source:            display1/c_0 (FF)
+  Destination:       display1/c_1 (FF)
+  Source Clock:      display1/cl/c rising
+  Destination Clock: display1/cl/c rising
+
+  Data Path: display1/c_0 to display1/c_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.591   1.040  display1/c_0 (display1/c_0)
+     LUT2:I1->O            1   0.704   0.000  display1/Mcount_c_xor<1>11 (display1/Result<1>)
+     FD:D                      0.308          display1/c_1
+    ----------------------------------------
+    Total                      2.643ns (1.603ns logic, 1.040ns route)
+                                       (60.7% logic, 39.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sound1/music1/t1'
+  Clock period: 5.504ns (frequency: 181.674MHz)
+  Total number of paths / destination ports: 2064 / 670
+-------------------------------------------------------------------------
+Delay:               5.504ns (Levels of Logic = 2)
+  Source:            sound1/music1/left_0 (FF)
+  Destination:       sound1/music1/delay_205 (FF)
+  Source Clock:      sound1/music1/t1 rising
+  Destination Clock: sound1/music1/t1 rising
+
+  Data Path: sound1/music1/left_0 to sound1/music1/delay_205
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              5   0.591   0.808  sound1/music1/left_0 (sound1/music1/left_0)
+     LUT4:I0->O            7   0.704   0.787  sound1/music1/max_and000011 (sound1/music1/left_cmp_eq0000)
+     LUT2:I1->O          327   0.704   1.355  sound1/music1/music_not00011 (sound1/music1/music_not0001)
+     FDPE:CE                   0.555          sound1/music1/delay_2
+    ----------------------------------------
+    Total                      5.504ns (2.554ns logic, 2.950ns route)
+                                       (46.4% logic, 53.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'showrec1/cl/c'
+  Clock period: 2.942ns (frequency: 339.905MHz)
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Delay:               2.942ns (Levels of Logic = 1)
+  Source:            showrec1/state_0 (FF)
+  Destination:       showrec1/state_1 (FF)
+  Source Clock:      showrec1/cl/c rising
+  Destination Clock: showrec1/cl/c rising
+
+  Data Path: showrec1/state_0 to showrec1/state_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             22   0.591   1.339  showrec1/state_0 (showrec1/state_0)
+     LUT2:I0->O            3   0.704   0.000  showrec1/data<15>11 (showrec1/Mcount_state)
+     FDC:D                     0.308          showrec1/state_0
+    ----------------------------------------
+    Total                      2.942ns (1.603ns logic, 1.339ns route)
+                                       (54.5% logic, 45.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'gameover1/lose1/cl/c'
+  Clock period: 3.091ns (frequency: 323.520MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               3.091ns (Levels of Logic = 1)
+  Source:            gameover1/lose1/s (FF)
+  Destination:       gameover1/lose1/s (FF)
+  Source Clock:      gameover1/lose1/cl/c rising
+  Destination Clock: gameover1/lose1/cl/c rising
+
+  Data Path: gameover1/lose1/s to gameover1/lose1/s
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.591   1.068  gameover1/lose1/s (gameover1/lose1/s)
+     INV:I->O              1   0.704   0.420  gameover1/lose1/data<19>1_INV_0 (gameover1/data2<19>)
+     FDC:D                     0.308          gameover1/lose1/s
+    ----------------------------------------
+    Total                      3.091ns (1.603ns logic, 1.488ns route)
+                                       (51.9% logic, 48.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'gameover1/cong1/cl/c1'
+  Clock period: 4.014ns (frequency: 249.128MHz)
+  Total number of paths / destination ports: 97 / 96
+-------------------------------------------------------------------------
+Delay:               4.014ns (Levels of Logic = 0)
+  Source:            gameover1/cong1/Mshreg_txt_24 (FF)
+  Destination:       gameover1/cong1/txt_241 (FF)
+  Source Clock:      gameover1/cong1/cl/c1 rising
+  Destination Clock: gameover1/cong1/cl/c1 rising
+
+  Data Path: gameover1/cong1/Mshreg_txt_24 to gameover1/cong1/txt_241
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.706   0.000  gameover1/cong1/Mshreg_txt_24 (gameover1/cong1/Mshreg_txt_24)
+     FD:D                      0.308          gameover1/cong1/txt_241
+    ----------------------------------------
+    Total                      4.014ns (4.014ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'showedit1/cl/c'
+  Clock period: 2.630ns (frequency: 380.228MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.630ns (Levels of Logic = 0)
+  Source:            showedit1/s (FF)
+  Destination:       showedit1/s (FF)
+  Source Clock:      showedit1/cl/c rising
+  Destination Clock: showedit1/cl/c rising
+
+  Data Path: showedit1/s to showedit1/s
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             21   0.591   1.128  showedit1/s (showedit1/s)
+     FDR:R                     0.911          showedit1/s
+    ----------------------------------------
+    Total                      2.630ns (1.502ns logic, 1.128ns route)
+                                       (57.1% logic, 42.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 301 / 301
+-------------------------------------------------------------------------
+Offset:              4.661ns (Levels of Logic = 2)
+  Source:            btn<0> (PAD)
+  Destination:       b4/cnt_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: btn<0> to b4/cnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.218   0.566  btn_0_IBUF (btn_0_IBUF)
+     LUT3:I2->O           32   0.704   1.262  b4/cnt_or00001 (b4/cnt_or0000)
+     FDR:R                     0.911          b4/cnt_0
+    ----------------------------------------
+    Total                      4.661ns (2.833ns logic, 1.828ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 471460 / 16
+-------------------------------------------------------------------------
+Offset:              28.826ns (Levels of Logic = 22)
+  Source:            s0/out (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: s0/out to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             23   0.591   1.377  s0/out (s0/out)
+     LUT3_D:I0->O         17   0.704   1.055  disp<15>28 (N10)
+     LUT4:I3->O           72   0.704   1.450  mem_addr<0>1 (mem_addr<0>)
+     LUT3:I0->O            1   0.704   0.000  mem1/Mmux_odata_4 (mem1/Mmux_odata_4)
+     MUXF5:I1->O           1   0.321   0.000  mem1/Mmux_odata_3_f5 (mem1/Mmux_odata_3_f5)
+     MUXF6:I1->O           5   0.521   0.808  mem1/Mmux_odata_2_f6 (mem_odata<0>)
+     LUT4:I0->O            1   0.704   0.595  showrec1/sj/j/b_cmp_eq0003426 (showrec1/sj/j/b_cmp_eq0003426)
+     LUT2:I0->O            2   0.704   0.482  showrec1/sj/j/b_cmp_eq0003454 (showrec1/sj/j/b_cmp_eq0003)
+     LUT4:I2->O            2   0.704   0.622  showrec1/sj/j/Madd_b_addsub0010_xor<0>11 (showrec1/sj/j/b_addsub0001<0>)
+     LUT3:I0->O            2   0.704   0.451  showrec1/sj/j/Madd_b_addsub0011_lut<0>68 (showrec1/sj/j/Madd_b_addsub0011_lut<0>)
+     LUT4:I3->O            2   0.704   0.451  showrec1/sj/j/Madd_b_addsub0004_Madd_xor<0>11 (showrec1/sj/j/b_addsub0004<0>)
+     LUT4:I3->O            2   0.704   0.451  showrec1/sj/j/Madd_b_addsub0006_Madd_xor<0>11 (showrec1/sj/j/b_addsub0006<0>)
+     LUT4:I3->O            2   0.704   0.622  showrec1/sj/j/Madd_b_addsub0008_Madd_xor<0>11 (showrec1/sj/j/b_addsub0008<0>)
+     LUT4:I0->O            2   0.704   0.526  showrec1/sj/j/Madd_b_Madd_cy<0>11 (showrec1/sj/j/Madd_b_Madd_cy<0>)
+     LUT4:I1->O            1   0.704   0.499  disp<6>62 (disp<6>62)
+     LUT4:I1->O            1   0.704   0.000  disp<6>209_G (N240)
+     MUXF5:I1->O           1   0.321   0.455  disp<6>209 (disp<6>209)
+     LUT4:I2->O            1   0.704   0.455  disp<6>275 (disp<6>)
+     LUT3:I2->O            1   0.704   0.000  display1/Mmux_n_41 (display1/Mmux_n_41)
+     MUXF5:I0->O          14   0.321   1.175  display1/Mmux_n_2_f5_0 (display1/n<1>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg6_F (N205)
+     MUXF5:I0->O           1   0.321   0.420  display1/Mrom_seg6 (seg_6_OBUF)
+     OBUF:I->O                 3.272          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                     28.826ns (16.932ns logic, 11.894ns route)
+                                       (58.7% logic, 41.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'display1/cl/c'
+  Total number of paths / destination ports: 193 / 11
+-------------------------------------------------------------------------
+Offset:              8.644ns (Levels of Logic = 5)
+  Source:            display1/c_0 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      display1/cl/c rising
+
+  Data Path: display1/c_0 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.591   1.136  display1/c_0 (display1/c_0)
+     LUT3:I0->O            1   0.704   0.000  display1/Mmux_n_31 (display1/Mmux_n_31)
+     MUXF5:I1->O          14   0.321   1.175  display1/Mmux_n_2_f5_0 (display1/n<1>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg6_F (N205)
+     MUXF5:I0->O           1   0.321   0.420  display1/Mrom_seg6 (seg_6_OBUF)
+     OBUF:I->O                 3.272          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                      8.644ns (5.913ns logic, 2.731ns route)
+                                       (68.4% logic, 31.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'hello1/cl/c1'
+  Total number of paths / destination ports: 252 / 7
+-------------------------------------------------------------------------
+Offset:              12.948ns (Levels of Logic = 9)
+  Source:            hello1/txt_40 (FF)
+  Destination:       seg<2> (PAD)
+  Source Clock:      hello1/cl/c1 rising
+
+  Data Path: hello1/txt_40 to seg<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.622  hello1/txt_40 (hello1/txt_40)
+     LUT4:I0->O            1   0.704   0.595  disp<15>4 (disp<15>4)
+     LUT4:I0->O            1   0.704   0.595  disp<15>64 (disp<15>64)
+     LUT3:I0->O            1   0.704   0.424  disp<15>78 (disp<15>78)
+     LUT4:I3->O            1   0.704   0.455  disp<15>140 (disp<15>)
+     LUT3:I2->O            1   0.704   0.000  display1/Mmux_n_3 (display1/Mmux_n_3)
+     MUXF5:I1->O          11   0.321   1.108  display1/Mmux_n_2_f5 (display1/n<0>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg2_G (N208)
+     MUXF5:I1->O           1   0.321   0.420  display1/Mrom_seg2 (seg_2_OBUF)
+     OBUF:I->O                 3.272          seg_2_OBUF (seg<2>)
+    ----------------------------------------
+    Total                     12.948ns (8.729ns logic, 4.219ns route)
+                                       (67.4% logic, 32.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'gameover1/lose1/cl/c'
+  Total number of paths / destination ports: 223 / 7
+-------------------------------------------------------------------------
+Offset:              14.430ns (Levels of Logic = 10)
+  Source:            gameover1/lose1/s (FF)
+  Destination:       seg<2> (PAD)
+  Source Clock:      gameover1/lose1/cl/c rising
+
+  Data Path: gameover1/lose1/s to seg<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.591   1.147  gameover1/lose1/s (gameover1/lose1/s)
+     LUT4:I1->O            1   0.704   0.424  disp<15>24_SW0 (N163)
+     LUT4:I3->O            1   0.704   0.424  disp<15>24 (disp<15>24)
+     LUT4:I3->O            1   0.704   0.595  disp<15>64 (disp<15>64)
+     LUT3:I0->O            1   0.704   0.424  disp<15>78 (disp<15>78)
+     LUT4:I3->O            1   0.704   0.455  disp<15>140 (disp<15>)
+     LUT3:I2->O            1   0.704   0.000  display1/Mmux_n_3 (display1/Mmux_n_3)
+     MUXF5:I1->O          11   0.321   1.108  display1/Mmux_n_2_f5 (display1/n<0>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg2_G (N208)
+     MUXF5:I1->O           1   0.321   0.420  display1/Mrom_seg2 (seg_2_OBUF)
+     OBUF:I->O                 3.272          seg_2_OBUF (seg<2>)
+    ----------------------------------------
+    Total                     14.430ns (9.433ns logic, 4.997ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'gameover1/cong1/cl/c1'
+  Total number of paths / destination ports: 265 / 7
+-------------------------------------------------------------------------
+Offset:              13.765ns (Levels of Logic = 10)
+  Source:            gameover1/cong1/txt_90 (FF)
+  Destination:       seg<2> (PAD)
+  Source Clock:      gameover1/cong1/cl/c1 rising
+
+  Data Path: gameover1/cong1/txt_90 to seg<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              2   0.591   0.482  gameover1/cong1/txt_90 (gameover1/cong1/txt_90)
+     LUT4:I2->O            1   0.704   0.424  disp<15>24_SW0 (N163)
+     LUT4:I3->O            1   0.704   0.424  disp<15>24 (disp<15>24)
+     LUT4:I3->O            1   0.704   0.595  disp<15>64 (disp<15>64)
+     LUT3:I0->O            1   0.704   0.424  disp<15>78 (disp<15>78)
+     LUT4:I3->O            1   0.704   0.455  disp<15>140 (disp<15>)
+     LUT3:I2->O            1   0.704   0.000  display1/Mmux_n_3 (display1/Mmux_n_3)
+     MUXF5:I1->O          11   0.321   1.108  display1/Mmux_n_2_f5 (display1/n<0>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg2_G (N208)
+     MUXF5:I1->O           1   0.321   0.420  display1/Mrom_seg2 (seg_2_OBUF)
+     OBUF:I->O                 3.272          seg_2_OBUF (seg<2>)
+    ----------------------------------------
+    Total                     13.765ns (9.433ns logic, 4.332ns route)
+                                       (68.5% logic, 31.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'showedit1/cl/c'
+  Total number of paths / destination ports: 252 / 7
+-------------------------------------------------------------------------
+Offset:              13.416ns (Levels of Logic = 9)
+  Source:            showedit1/s (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      showedit1/cl/c rising
+
+  Data Path: showedit1/s to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             21   0.591   1.163  showedit1/s (showedit1/s)
+     LUT4:I2->O            1   0.704   0.424  disp<16>132 (disp<16>132)
+     LUT4:I3->O            1   0.704   0.595  disp<16>158 (disp<16>158)
+     LUT4:I0->O            1   0.704   0.455  disp<16>190 (disp<16>190)
+     LUT4:I2->O            1   0.704   0.455  disp<16>262 (disp<16>)
+     LUT3:I2->O            1   0.704   0.000  display1/Mmux_n_31 (display1/Mmux_n_31)
+     MUXF5:I1->O          14   0.321   1.175  display1/Mmux_n_2_f5_0 (display1/n<1>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg6_F (N205)
+     MUXF5:I0->O           1   0.321   0.420  display1/Mrom_seg6 (seg_6_OBUF)
+     OBUF:I->O                 3.272          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                     13.416ns (8.729ns logic, 4.687ns route)
+                                       (65.1% logic, 34.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'showrec1/cl/c'
+  Total number of paths / destination ports: 608 / 7
+-------------------------------------------------------------------------
+Offset:              15.002ns (Levels of Logic = 10)
+  Source:            showrec1/state_0 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      showrec1/cl/c rising
+
+  Data Path: showrec1/state_0 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             22   0.591   1.339  showrec1/state_0 (showrec1/state_0)
+     LUT2:I0->O            3   0.704   0.706  showrec1/data<15>11 (showrec1/Mcount_state)
+     LUT4:I0->O            1   0.704   0.595  disp<16>28 (disp<16>28)
+     LUT4:I0->O            1   0.704   0.424  disp<16>70 (disp<16>70)
+     LUT4:I3->O            1   0.704   0.455  disp<16>190 (disp<16>190)
+     LUT4:I2->O            1   0.704   0.455  disp<16>262 (disp<16>)
+     LUT3:I2->O            1   0.704   0.000  display1/Mmux_n_31 (display1/Mmux_n_31)
+     MUXF5:I1->O          14   0.321   1.175  display1/Mmux_n_2_f5_0 (display1/n<1>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg6_F (N205)
+     MUXF5:I0->O           1   0.321   0.420  display1/Mrom_seg6 (seg_6_OBUF)
+     OBUF:I->O                 3.272          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                     15.002ns (9.433ns logic, 5.569ns route)
+                                       (62.9% logic, 37.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'mem_we1'
+  Total number of paths / destination ports: 61728 / 7
+-------------------------------------------------------------------------
+Offset:              24.035ns (Levels of Logic = 20)
+  Source:            mem1/data0_0 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      mem_we1 rising
+
+  Data Path: mem1/data0_0 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.591   0.499  mem1/data0_0 (mem1/data0_0)
+     LUT3:I1->O            1   0.704   0.000  mem1/Mmux_odata_6 (mem1/Mmux_odata_6)
+     MUXF5:I0->O           1   0.321   0.000  mem1/Mmux_odata_4_f5 (mem1/Mmux_odata_4_f5)
+     MUXF6:I0->O           5   0.521   0.808  mem1/Mmux_odata_2_f6 (mem_odata<0>)
+     LUT4:I0->O            1   0.704   0.595  showrec1/sj/j/b_cmp_eq0003426 (showrec1/sj/j/b_cmp_eq0003426)
+     LUT2:I0->O            2   0.704   0.482  showrec1/sj/j/b_cmp_eq0003454 (showrec1/sj/j/b_cmp_eq0003)
+     LUT4:I2->O            2   0.704   0.622  showrec1/sj/j/Madd_b_addsub0010_xor<0>11 (showrec1/sj/j/b_addsub0001<0>)
+     LUT3:I0->O            2   0.704   0.451  showrec1/sj/j/Madd_b_addsub0011_lut<0>68 (showrec1/sj/j/Madd_b_addsub0011_lut<0>)
+     LUT4:I3->O            2   0.704   0.451  showrec1/sj/j/Madd_b_addsub0004_Madd_xor<0>11 (showrec1/sj/j/b_addsub0004<0>)
+     LUT4:I3->O            2   0.704   0.451  showrec1/sj/j/Madd_b_addsub0006_Madd_xor<0>11 (showrec1/sj/j/b_addsub0006<0>)
+     LUT4:I3->O            2   0.704   0.622  showrec1/sj/j/Madd_b_addsub0008_Madd_xor<0>11 (showrec1/sj/j/b_addsub0008<0>)
+     LUT4:I0->O            2   0.704   0.526  showrec1/sj/j/Madd_b_Madd_cy<0>11 (showrec1/sj/j/Madd_b_Madd_cy<0>)
+     LUT4:I1->O            1   0.704   0.499  disp<6>62 (disp<6>62)
+     LUT4:I1->O            1   0.704   0.000  disp<6>209_G (N240)
+     MUXF5:I1->O           1   0.321   0.455  disp<6>209 (disp<6>209)
+     LUT4:I2->O            1   0.704   0.455  disp<6>275 (disp<6>)
+     LUT3:I2->O            1   0.704   0.000  display1/Mmux_n_41 (display1/Mmux_n_41)
+     MUXF5:I0->O          14   0.321   1.175  display1/Mmux_n_2_f5_0 (display1/n<1>)
+     LUT4:I0->O            1   0.704   0.000  display1/Mrom_seg6_F (N205)
+     MUXF5:I0->O           1   0.321   0.420  display1/Mrom_seg6 (seg_6_OBUF)
+     OBUF:I->O                 3.272          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                     24.035ns (15.524ns logic, 8.511ns route)
+                                       (64.6% logic, 35.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t7/c1/c'
+  Total number of paths / destination ports: 52 / 1
+-------------------------------------------------------------------------
+Offset:              9.919ns (Levels of Logic = 12)
+  Source:            twinkle81/t7/br0_5 (FF)
+  Destination:       led<7> (PAD)
+  Source Clock:      twinkle81/t7/c1/c rising
+
+  Data Path: twinkle81/t7/br0_5 to led<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t7/br0_5 (twinkle81/t7/br0_5)
+     LUT4:I0->O            1   0.704   0.595  twinkle81/t7/br<0>1 (twinkle81/t7/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t7/Mcompar_o_lut<0> (twinkle81/t7/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t7/Mcompar_o_cy<0> (twinkle81/t7/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t7/Mcompar_o_cy<1> (twinkle81/t7/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t7/Mcompar_o_cy<2> (twinkle81/t7/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t7/Mcompar_o_cy<3> (twinkle81/t7/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t7/Mcompar_o_cy<4> (twinkle81/t7/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t7/Mcompar_o_cy<5> (twinkle81/t7/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t7/Mcompar_o_cy<6> (twinkle81/t7/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.595  twinkle81/t7/Mcompar_o_cy<7> (tw<7>)
+     LUT2:I0->O            1   0.704   0.420  led<7>1 (led_7_OBUF)
+     OBUF:I->O                 3.272          led_7_OBUF (led<7>)
+    ----------------------------------------
+    Total                      9.919ns (7.252ns logic, 2.667ns route)
+                                       (73.1% logic, 26.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t6/c1/c'
+  Total number of paths / destination ports: 38 / 1
+-------------------------------------------------------------------------
+Offset:              9.880ns (Levels of Logic = 12)
+  Source:            twinkle81/t6/br0_7 (FF)
+  Destination:       led<6> (PAD)
+  Source Clock:      twinkle81/t6/c1/c rising
+
+  Data Path: twinkle81/t6/br0_7 to led<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              13   0.591   1.158  twinkle81/t6/br0_7 (twinkle81/t6/br0_7)
+     LUT3:I0->O            1   0.704   0.595  twinkle81/t6/br<0>1 (twinkle81/t6/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t6/Mcompar_o_lut<0> (twinkle81/t6/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t6/Mcompar_o_cy<0> (twinkle81/t6/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t6/Mcompar_o_cy<1> (twinkle81/t6/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t6/Mcompar_o_cy<2> (twinkle81/t6/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t6/Mcompar_o_cy<3> (twinkle81/t6/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t6/Mcompar_o_cy<4> (twinkle81/t6/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t6/Mcompar_o_cy<5> (twinkle81/t6/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t6/Mcompar_o_cy<6> (twinkle81/t6/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.420  twinkle81/t6/Mcompar_o_cy<7> (tw<6>)
+     MUXF5:S->O            1   0.739   0.420  led<6>_f5 (led_6_OBUF)
+     OBUF:I->O                 3.272          led_6_OBUF (led<6>)
+    ----------------------------------------
+    Total                      9.880ns (7.287ns logic, 2.593ns route)
+                                       (73.8% logic, 26.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t5/c1/c'
+  Total number of paths / destination ports: 52 / 1
+-------------------------------------------------------------------------
+Offset:              9.919ns (Levels of Logic = 12)
+  Source:            twinkle81/t5/br0_6 (FF)
+  Destination:       led<5> (PAD)
+  Source Clock:      twinkle81/t5/c1/c rising
+
+  Data Path: twinkle81/t5/br0_6 to led<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t5/br0_6 (twinkle81/t5/br0_6)
+     LUT4:I0->O            1   0.704   0.595  twinkle81/t5/br<0>1 (twinkle81/t5/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t5/Mcompar_o_lut<0> (twinkle81/t5/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t5/Mcompar_o_cy<0> (twinkle81/t5/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t5/Mcompar_o_cy<1> (twinkle81/t5/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t5/Mcompar_o_cy<2> (twinkle81/t5/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t5/Mcompar_o_cy<3> (twinkle81/t5/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t5/Mcompar_o_cy<4> (twinkle81/t5/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t5/Mcompar_o_cy<5> (twinkle81/t5/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t5/Mcompar_o_cy<6> (twinkle81/t5/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.595  twinkle81/t5/Mcompar_o_cy<7> (tw<5>)
+     LUT4:I0->O            1   0.704   0.420  led<5>1 (led_5_OBUF)
+     OBUF:I->O                 3.272          led_5_OBUF (led<5>)
+    ----------------------------------------
+    Total                      9.919ns (7.252ns logic, 2.667ns route)
+                                       (73.1% logic, 26.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t4/c1/c'
+  Total number of paths / destination ports: 28 / 1
+-------------------------------------------------------------------------
+Offset:              9.897ns (Levels of Logic = 12)
+  Source:            twinkle81/t4/br0_7 (FF)
+  Destination:       led<4> (PAD)
+  Source Clock:      twinkle81/t4/c1/c rising
+
+  Data Path: twinkle81/t4/br0_7 to led<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              14   0.591   1.175  twinkle81/t4/br0_7 (twinkle81/t4/br0_7)
+     LUT2:I0->O            1   0.704   0.595  twinkle81/t4/br<0>1 (twinkle81/t4/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t4/Mcompar_o_lut<0> (twinkle81/t4/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t4/Mcompar_o_cy<0> (twinkle81/t4/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcompar_o_cy<1> (twinkle81/t4/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcompar_o_cy<2> (twinkle81/t4/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcompar_o_cy<3> (twinkle81/t4/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcompar_o_cy<4> (twinkle81/t4/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcompar_o_cy<5> (twinkle81/t4/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t4/Mcompar_o_cy<6> (twinkle81/t4/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.420  twinkle81/t4/Mcompar_o_cy<7> (tw<4>)
+     MUXF5:S->O            1   0.739   0.420  led<4>_f5 (led_4_OBUF)
+     OBUF:I->O                 3.272          led_4_OBUF (led<4>)
+    ----------------------------------------
+    Total                      9.897ns (7.287ns logic, 2.610ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t3/c1/c'
+  Total number of paths / destination ports: 52 / 1
+-------------------------------------------------------------------------
+Offset:              9.919ns (Levels of Logic = 12)
+  Source:            twinkle81/t3/br0_5 (FF)
+  Destination:       led<3> (PAD)
+  Source Clock:      twinkle81/t3/c1/c rising
+
+  Data Path: twinkle81/t3/br0_5 to led<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t3/br0_5 (twinkle81/t3/br0_5)
+     LUT4:I0->O            1   0.704   0.595  twinkle81/t3/br<0>1 (twinkle81/t3/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t3/Mcompar_o_lut<0> (twinkle81/t3/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t3/Mcompar_o_cy<0> (twinkle81/t3/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t3/Mcompar_o_cy<1> (twinkle81/t3/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t3/Mcompar_o_cy<2> (twinkle81/t3/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t3/Mcompar_o_cy<3> (twinkle81/t3/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t3/Mcompar_o_cy<4> (twinkle81/t3/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t3/Mcompar_o_cy<5> (twinkle81/t3/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t3/Mcompar_o_cy<6> (twinkle81/t3/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.595  twinkle81/t3/Mcompar_o_cy<7> (tw<3>)
+     LUT3:I0->O            1   0.704   0.420  led<3>1 (led_3_OBUF)
+     OBUF:I->O                 3.272          led_3_OBUF (led<3>)
+    ----------------------------------------
+    Total                      9.919ns (7.252ns logic, 2.667ns route)
+                                       (73.1% logic, 26.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t2/c1/c'
+  Total number of paths / destination ports: 38 / 1
+-------------------------------------------------------------------------
+Offset:              9.998ns (Levels of Logic = 12)
+  Source:            twinkle81/t2/br0_6 (FF)
+  Destination:       led<2> (PAD)
+  Source Clock:      twinkle81/t2/c1/c rising
+
+  Data Path: twinkle81/t2/br0_6 to led<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.591   1.136  twinkle81/t2/br0_6 (twinkle81/t2/br0_6)
+     LUT3:I0->O            1   0.704   0.595  twinkle81/t2/br<0>1 (twinkle81/t2/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t2/Mcompar_o_lut<0> (twinkle81/t2/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t2/Mcompar_o_cy<0> (twinkle81/t2/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t2/Mcompar_o_cy<1> (twinkle81/t2/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t2/Mcompar_o_cy<2> (twinkle81/t2/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t2/Mcompar_o_cy<3> (twinkle81/t2/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t2/Mcompar_o_cy<4> (twinkle81/t2/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t2/Mcompar_o_cy<5> (twinkle81/t2/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t2/Mcompar_o_cy<6> (twinkle81/t2/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.595  twinkle81/t2/Mcompar_o_cy<7> (tw<2>)
+     LUT4:I0->O            1   0.704   0.420  led<2> (led_2_OBUF)
+     OBUF:I->O                 3.272          led_2_OBUF (led<2>)
+    ----------------------------------------
+    Total                      9.998ns (7.252ns logic, 2.746ns route)
+                                       (72.5% logic, 27.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t1/c1/c'
+  Total number of paths / destination ports: 52 / 1
+-------------------------------------------------------------------------
+Offset:              9.919ns (Levels of Logic = 12)
+  Source:            twinkle81/t1/br0_6 (FF)
+  Destination:       led<1> (PAD)
+  Source Clock:      twinkle81/t1/c1/c rising
+
+  Data Path: twinkle81/t1/br0_6 to led<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.591   1.057  twinkle81/t1/br0_6 (twinkle81/t1/br0_6)
+     LUT4:I0->O            1   0.704   0.595  twinkle81/t1/br<0>1 (twinkle81/t1/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t1/Mcompar_o_lut<0> (twinkle81/t1/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t1/Mcompar_o_cy<0> (twinkle81/t1/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t1/Mcompar_o_cy<1> (twinkle81/t1/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t1/Mcompar_o_cy<2> (twinkle81/t1/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t1/Mcompar_o_cy<3> (twinkle81/t1/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t1/Mcompar_o_cy<4> (twinkle81/t1/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t1/Mcompar_o_cy<5> (twinkle81/t1/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t1/Mcompar_o_cy<6> (twinkle81/t1/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.595  twinkle81/t1/Mcompar_o_cy<7> (tw<1>)
+     LUT4:I0->O            1   0.704   0.420  led<1>1 (led_1_OBUF)
+     OBUF:I->O                 3.272          led_1_OBUF (led<1>)
+    ----------------------------------------
+    Total                      9.919ns (7.252ns logic, 2.667ns route)
+                                       (73.1% logic, 26.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'twinkle81/t0/c1/c'
+  Total number of paths / destination ports: 28 / 1
+-------------------------------------------------------------------------
+Offset:              10.037ns (Levels of Logic = 12)
+  Source:            twinkle81/t0/br0_7 (FF)
+  Destination:       led<0> (PAD)
+  Source Clock:      twinkle81/t0/c1/c rising
+
+  Data Path: twinkle81/t0/br0_7 to led<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              14   0.591   1.175  twinkle81/t0/br0_7 (twinkle81/t0/br0_7)
+     LUT2:I0->O            1   0.704   0.595  twinkle81/t0/br<0>1 (twinkle81/t0/br<0>)
+     LUT2:I0->O            1   0.704   0.000  twinkle81/t0/Mcompar_o_lut<0> (twinkle81/t0/Mcompar_o_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  twinkle81/t0/Mcompar_o_cy<0> (twinkle81/t0/Mcompar_o_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcompar_o_cy<1> (twinkle81/t0/Mcompar_o_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcompar_o_cy<2> (twinkle81/t0/Mcompar_o_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcompar_o_cy<3> (twinkle81/t0/Mcompar_o_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcompar_o_cy<4> (twinkle81/t0/Mcompar_o_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcompar_o_cy<5> (twinkle81/t0/Mcompar_o_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  twinkle81/t0/Mcompar_o_cy<6> (twinkle81/t0/Mcompar_o_cy<6>)
+     MUXCY:CI->O           1   0.459   0.595  twinkle81/t0/Mcompar_o_cy<7> (tw<0>)
+     LUT4:I0->O            1   0.704   0.420  led<0> (led_0_OBUF)
+     OBUF:I->O                 3.272          led_0_OBUF (led<0>)
+    ----------------------------------------
+    Total                     10.037ns (7.252ns logic, 2.785ns route)
+                                       (72.3% logic, 27.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 19.34 secs
+ 
+--> 
+
+Total memory usage is 378744 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   32 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+
